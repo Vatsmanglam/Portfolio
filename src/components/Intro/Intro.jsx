@@ -5,7 +5,7 @@ import Github from "../../img/github.png"
 import LinkedIn from "../../img/linkedin.png"
 import Vector1 from "../../img/Vector1.png"
 import Vector2 from "../../img/Vector2.png"
-import Boy from "../../img/boy.png"
+import Boy from "../../img/profile.png"
 import Thumbup from "../../img/thumbup.png"
 import Crown from "../../img/crown.png"
 import GlassEmoji from "../../img/glassesimoji.png"
@@ -46,9 +46,12 @@ function Intro() {
                 </div>
         </div>
         <div className="i-right">
-            <img src={Vector1} alt="" />
-            <img src={Vector2} alt="" />
-            <img src={Boy} alt="" />
+            <div></div>
+            <div></div>
+            <div>
+
+            <img src={Boy} alt="" className='profile'/>
+            </div>
             <motion.img
                 initial={{left: "-36%"}} 
                 whileInView={{left: "-24%"}}
